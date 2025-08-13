@@ -1,0 +1,13 @@
+-- Create the Actors table
+CREATE TABLE Actors (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT
+);
+
+-- Create the Movies table
+CREATE TABLE Movies (
+    id INT PRIMARY KEY,
+    title VARCHAR(200),
+    year INT
+);
